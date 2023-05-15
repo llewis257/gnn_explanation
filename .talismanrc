@@ -1,0 +1,29 @@
+fileignoreconfig:
+- filename: data/model/dcrnn_DR_2_h_12_64-64_lr_0.005_bs_64_0409012605/info.log
+  checksum: f941764bc06a4c90239cd2d30b0669158b7beaf60f3d80d3f42cd54c2b94db6c
+- filename: data/model/dcrnn_DR_2_h_12_64-64_lr_0.0085_bs_64_0409180653/info.log
+  checksum: f168471eba8ae79d95d9288ecb4604160024a07337dcc85a2c3c32621d0a5818
+- filename: data/model/dcrnn_DR_2_h_12_64-64_lr_0.0095_bs_64_0409192352/info.log
+  checksum: a72d98ca76cdcea6f107b48ebc4e938a0f7edc9c8466f69db291bb5a4cb4bd4e
+- filename: data/model/dcrnn_DR_2_h_12_64-64_lr_0.009_bs_64_0409093727/info.log
+  checksum: 86d3ea69e7b184e98f58c1a57eea231d05649f50a755045ccdff8763e5f0830d
+- filename: data/model/dcrnn_DR_2_h_12_64-64_lr_0.01_bs_64_0408025136/info.log
+  checksum: ebdf48a7c67f79cc3c89f39e04dbc5f6eb6a423446481b92e8aec4bfa64ae2bb
+- filename: data/model/dcrnn_DR_2_h_12_64-64_lr_0.01_bs_64_0408025454/info.log
+  checksum: 1208fa29b87f21646f8bf589f560d88da5f3757a25d770dd37957c810038db04
+- filename: data/model/dcrnn_DR_2_h_12_64-64_lr_0.01_bs_64_0409083619/info.log
+  checksum: dedcfdbabeeaa863eb981118b954604b468d955e7054980308c2a925bd3fefbd
+- filename: data/model/info.log
+  checksum: 7d8bcde54869e60d59eea2a9566cc359a8648e0f51162027efa04240d71189d6
+- filename: data/model/pretrained/METR-LA/info.log
+  checksum: 8460295a397250c1ac315a50dad0f1c6796fba311500eac2b3811a8e0b0ed62e
+- filename: Notebooks/.ipynb_checkpoints/Traffic_prediction-checkpoint.ipynb
+  checksum: 09de692985926c14c2b9843fd07a9d6d81786a5eb5bf988dbbe696e95b840e30
+- filename: Notebooks/Traffic_prediction.ipynb
+  checksum: dfdfc43a7d851654e28105e393a188bc91263055e4e6434ff85d175ae1e81650
+- filename: lib/AMSGrad.py
+  checksum: e4f713d9e36b5bc3a4316d2e32b3e282ee87cd27d7ca523efabb5e054e9512e2
+- filename: dcrnn.txt
+  checksum: 2b056b064e8bc5b77b0eaa379a6b925e4434f75fb67fb92a52fc2489198356b2
+version: ""
+
