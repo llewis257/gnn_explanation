@@ -1,0 +1,21 @@
+2023-04-09 08:36:19,172 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/dcrnn_DR_2_h_12_64-64_lr_0.01_bs_64_0409083619/
+2023-04-09 08:36:41,072 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2023-04-09 08:36:42,863 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 51
+2023-04-09 08:36:42,864 - model.pytorch.dcrnn_supervisor - INFO - Start training ...
+2023-04-09 08:36:42,864 - model.pytorch.dcrnn_supervisor - INFO - num_batches:375
+2023-04-09 08:48:47,872 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 08:48:47,872 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 08:49:40,714 - model.pytorch.dcrnn_supervisor - INFO - Epoch [51/100] (19500) train_mae: 2.6328, val_mae: 2.8614, lr: 0.010000, 777.8s
+2023-04-09 08:49:40,726 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 51
+2023-04-09 08:49:40,726 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from inf to 2.8614, saving to models/epo51.tar
+2023-04-09 09:01:46,114 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 09:01:46,115 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 09:02:38,825 - model.pytorch.dcrnn_supervisor - INFO - Epoch [52/100] (19875) train_mae: 2.6277, val_mae: 2.8360, lr: 0.010000, 778.1s
+2023-04-09 09:02:38,836 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 52
+2023-04-09 09:02:38,836 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 2.8614 to 2.8360, saving to models/epo52.tar
+2023-04-09 09:14:43,722 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 09:14:43,722 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 09:15:36,536 - model.pytorch.dcrnn_supervisor - INFO - Epoch [53/100] (20250) train_mae: 2.6837, val_mae: 2.9068, lr: 0.010000, 777.7s
+2023-04-09 09:27:41,885 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 09:27:41,886 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 09:28:34,579 - model.pytorch.dcrnn_supervisor - INFO - Epoch [54/100] (20625) train_mae: 2.7075, val_mae: 2.8597, lr: 0.010000, 778.0s

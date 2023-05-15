@@ -1,0 +1,135 @@
+2023-04-09 09:37:27,561 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/dcrnn_DR_2_h_12_64-64_lr_0.009_bs_64_0409093727/
+2023-04-09 09:37:49,863 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2023-04-09 09:37:51,693 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 52
+2023-04-09 09:37:51,694 - model.pytorch.dcrnn_supervisor - INFO - Start training ...
+2023-04-09 09:37:51,694 - model.pytorch.dcrnn_supervisor - INFO - num_batches:375
+2023-04-09 09:49:58,325 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 09:49:58,326 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 09:50:51,425 - model.pytorch.dcrnn_supervisor - INFO - Epoch [52/100] (19875) train_mae: 2.6237, val_mae: 2.9185, lr: 0.009000, 779.7s
+2023-04-09 09:50:51,436 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 52
+2023-04-09 09:50:51,437 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from inf to 2.9185, saving to models/epo52.tar
+2023-04-09 10:02:58,240 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 10:02:58,241 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 10:03:51,215 - model.pytorch.dcrnn_supervisor - INFO - Epoch [53/100] (20250) train_mae: 2.6269, val_mae: 2.8812, lr: 0.009000, 779.8s
+2023-04-09 10:03:51,226 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 53
+2023-04-09 10:03:51,226 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 2.9185 to 2.8812, saving to models/epo53.tar
+2023-04-09 10:15:58,072 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 10:15:58,072 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 10:16:50,887 - model.pytorch.dcrnn_supervisor - INFO - Epoch [54/100] (20625) train_mae: 2.6164, val_mae: 2.8727, lr: 0.009000, 779.7s
+2023-04-09 10:16:50,898 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 54
+2023-04-09 10:16:50,898 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 2.8812 to 2.8727, saving to models/epo54.tar
+2023-04-09 10:28:58,262 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 10:28:58,263 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 10:29:51,119 - model.pytorch.dcrnn_supervisor - INFO - Epoch [55/100] (21000) train_mae: 2.6396, val_mae: 2.8751, lr: 0.009000, 780.2s
+2023-04-09 10:41:58,274 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 10:41:58,274 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 10:42:51,214 - model.pytorch.dcrnn_supervisor - INFO - Epoch [56/100] (21375) train_mae: 2.6232, val_mae: 2.8803, lr: 0.009000, 780.1s
+2023-04-09 10:54:58,602 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 10:54:58,602 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 10:55:51,655 - model.pytorch.dcrnn_supervisor - INFO - Epoch [57/100] (21750) train_mae: 2.6663, val_mae: 2.8702, lr: 0.009000, 780.4s
+2023-04-09 10:55:51,666 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 57
+2023-04-09 10:55:51,666 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 2.8727 to 2.8702, saving to models/epo57.tar
+2023-04-09 11:07:58,644 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 11:07:58,644 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 11:08:51,623 - model.pytorch.dcrnn_supervisor - INFO - Epoch [58/100] (22125) train_mae: 2.6307, val_mae: 2.8686, lr: 0.009000, 780.0s
+2023-04-09 11:08:51,633 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 58
+2023-04-09 11:08:51,633 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 2.8702 to 2.8686, saving to models/epo58.tar
+2023-04-09 11:20:59,111 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 11:20:59,112 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 11:21:52,008 - model.pytorch.dcrnn_supervisor - INFO - Epoch [59/100] (22500) train_mae: 2.6841, val_mae: 2.8554, lr: 0.009000, 780.4s
+2023-04-09 11:23:37,845 - model.pytorch.dcrnn_supervisor - INFO - Epoch [59/100] (22500) train_mae: 2.6841, test_mae: 3.0285,  lr: 0.009000, 780.4s
+2023-04-09 11:23:37,856 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 59
+2023-04-09 11:23:37,856 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 2.8686 to 2.8554, saving to models/epo59.tar
+2023-04-09 11:35:45,260 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 11:35:45,260 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 11:36:38,136 - model.pytorch.dcrnn_supervisor - INFO - Epoch [60/100] (22875) train_mae: 2.6914, val_mae: 2.8828, lr: 0.009000, 780.3s
+2023-04-09 11:48:45,345 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 11:48:45,346 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 11:49:38,178 - model.pytorch.dcrnn_supervisor - INFO - Epoch [61/100] (23250) train_mae: 4.0649, val_mae: 6.8138, lr: 0.009000, 780.0s
+2023-04-09 12:01:45,314 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 12:01:45,315 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 12:02:38,417 - model.pytorch.dcrnn_supervisor - INFO - Epoch [62/100] (23625) train_mae: 5.9784, val_mae: 5.2282, lr: 0.009000, 780.2s
+2023-04-09 12:14:45,238 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 12:14:45,239 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 12:15:38,107 - model.pytorch.dcrnn_supervisor - INFO - Epoch [63/100] (24000) train_mae: 4.4194, val_mae: 3.5948, lr: 0.009000, 779.7s
+2023-04-09 12:27:44,984 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 12:27:44,985 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 12:28:37,778 - model.pytorch.dcrnn_supervisor - INFO - Epoch [64/100] (24375) train_mae: 3.6568, val_mae: 3.6198, lr: 0.009000, 779.7s
+2023-04-09 12:40:44,825 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 12:40:44,826 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 12:41:37,763 - model.pytorch.dcrnn_supervisor - INFO - Epoch [65/100] (24750) train_mae: 3.4755, val_mae: 3.2503, lr: 0.009000, 780.0s
+2023-04-09 12:53:44,600 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 12:53:44,601 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 12:54:37,541 - model.pytorch.dcrnn_supervisor - INFO - Epoch [66/100] (25125) train_mae: 3.3361, val_mae: 3.2024, lr: 0.009000, 779.8s
+2023-04-09 13:06:44,374 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 13:06:44,375 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 13:07:37,314 - model.pytorch.dcrnn_supervisor - INFO - Epoch [67/100] (25500) train_mae: 3.2473, val_mae: 3.1350, lr: 0.009000, 779.8s
+2023-04-09 13:19:45,036 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 13:19:45,037 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 13:20:37,923 - model.pytorch.dcrnn_supervisor - INFO - Epoch [68/100] (25875) train_mae: 3.2064, val_mae: 3.1948, lr: 0.009000, 780.6s
+2023-04-09 13:32:45,367 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 13:32:45,368 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 13:33:38,409 - model.pytorch.dcrnn_supervisor - INFO - Epoch [69/100] (26250) train_mae: 3.1857, val_mae: 3.0857, lr: 0.009000, 780.5s
+2023-04-09 13:35:24,244 - model.pytorch.dcrnn_supervisor - INFO - Epoch [69/100] (26250) train_mae: 3.1857, test_mae: 3.2606,  lr: 0.009000, 780.5s
+2023-04-09 13:47:31,650 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 13:47:31,650 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 13:48:24,704 - model.pytorch.dcrnn_supervisor - INFO - Epoch [70/100] (26625) train_mae: 3.1226, val_mae: 3.1277, lr: 0.009000, 780.5s
+2023-04-09 14:00:32,613 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 14:00:32,614 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 14:01:25,648 - model.pytorch.dcrnn_supervisor - INFO - Epoch [71/100] (27000) train_mae: 3.1109, val_mae: 3.0301, lr: 0.000001, 780.9s
+2023-04-09 14:13:33,014 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 14:13:33,014 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 14:14:25,945 - model.pytorch.dcrnn_supervisor - INFO - Epoch [72/100] (27375) train_mae: 3.0205, val_mae: 2.9616, lr: 0.000081, 780.3s
+2023-04-09 14:26:33,863 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 14:26:33,864 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 14:27:26,853 - model.pytorch.dcrnn_supervisor - INFO - Epoch [73/100] (27750) train_mae: 2.9916, val_mae: 2.9541, lr: 0.000081, 780.9s
+2023-04-09 14:39:34,448 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 14:39:34,448 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 14:40:27,552 - model.pytorch.dcrnn_supervisor - INFO - Epoch [74/100] (28125) train_mae: 2.9804, val_mae: 2.9502, lr: 0.000081, 780.7s
+2023-04-09 14:52:35,525 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 14:52:35,526 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 14:53:28,412 - model.pytorch.dcrnn_supervisor - INFO - Epoch [75/100] (28500) train_mae: 2.9732, val_mae: 2.9473, lr: 0.000081, 780.9s
+2023-04-09 15:05:36,547 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 15:05:36,548 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 15:06:29,553 - model.pytorch.dcrnn_supervisor - INFO - Epoch [76/100] (28875) train_mae: 2.9678, val_mae: 2.9448, lr: 0.000081, 781.1s
+2023-04-09 15:18:37,383 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 15:18:37,384 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 15:19:30,501 - model.pytorch.dcrnn_supervisor - INFO - Epoch [77/100] (29250) train_mae: 2.9634, val_mae: 2.9431, lr: 0.000081, 780.9s
+2023-04-09 15:31:38,043 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 15:31:38,044 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 15:32:30,963 - model.pytorch.dcrnn_supervisor - INFO - Epoch [78/100] (29625) train_mae: 2.9602, val_mae: 2.9410, lr: 0.000081, 780.5s
+2023-04-09 15:44:38,162 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 15:44:38,163 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 15:45:31,146 - model.pytorch.dcrnn_supervisor - INFO - Epoch [79/100] (30000) train_mae: 2.9574, val_mae: 2.9405, lr: 0.000081, 780.2s
+2023-04-09 15:47:16,860 - model.pytorch.dcrnn_supervisor - INFO - Epoch [79/100] (30000) train_mae: 2.9574, test_mae: 3.1083,  lr: 0.000081, 780.2s
+2023-04-09 15:59:24,299 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 15:59:24,300 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 16:00:17,297 - model.pytorch.dcrnn_supervisor - INFO - Epoch [80/100] (30375) train_mae: 2.9544, val_mae: 2.9394, lr: 0.000081, 780.4s
+2023-04-09 16:12:24,798 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 16:12:24,798 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 16:13:17,734 - model.pytorch.dcrnn_supervisor - INFO - Epoch [81/100] (30750) train_mae: 2.9514, val_mae: 2.9376, lr: 0.000000, 780.4s
+2023-04-09 16:25:25,709 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 16:25:25,710 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 16:26:18,690 - model.pytorch.dcrnn_supervisor - INFO - Epoch [82/100] (31125) train_mae: 2.9490, val_mae: 2.9372, lr: 0.000001, 781.0s
+2023-04-09 16:38:26,410 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 16:38:26,410 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 16:39:19,379 - model.pytorch.dcrnn_supervisor - INFO - Epoch [83/100] (31500) train_mae: 2.9494, val_mae: 2.9372, lr: 0.000001, 780.7s
+2023-04-09 16:51:26,589 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 16:51:26,590 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 16:52:19,624 - model.pytorch.dcrnn_supervisor - INFO - Epoch [84/100] (31875) train_mae: 2.9494, val_mae: 2.9372, lr: 0.000001, 780.2s
+2023-04-09 17:04:27,487 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 17:04:27,488 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 17:05:20,652 - model.pytorch.dcrnn_supervisor - INFO - Epoch [85/100] (32250) train_mae: 2.9492, val_mae: 2.9373, lr: 0.000001, 781.0s
+2023-04-09 17:17:28,858 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 17:17:28,859 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 17:18:22,014 - model.pytorch.dcrnn_supervisor - INFO - Epoch [86/100] (32625) train_mae: 2.9492, val_mae: 2.9372, lr: 0.000001, 781.4s
+2023-04-09 17:30:29,987 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 17:30:29,987 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 17:31:22,912 - model.pytorch.dcrnn_supervisor - INFO - Epoch [87/100] (33000) train_mae: 2.9490, val_mae: 2.9372, lr: 0.000001, 780.9s
+2023-04-09 17:43:30,517 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 17:43:30,518 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 17:44:23,650 - model.pytorch.dcrnn_supervisor - INFO - Epoch [88/100] (33375) train_mae: 2.9491, val_mae: 2.9373, lr: 0.000001, 780.7s
+2023-04-09 17:56:31,412 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-04-09 17:56:31,412 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-04-09 17:57:24,343 - model.pytorch.dcrnn_supervisor - INFO - Epoch [89/100] (33750) train_mae: 2.9491, val_mae: 2.9373, lr: 0.000001, 780.7s
+2023-04-09 17:59:10,352 - model.pytorch.dcrnn_supervisor - INFO - Epoch [89/100] (33750) train_mae: 2.9491, test_mae: 3.1052,  lr: 0.000001, 780.7s

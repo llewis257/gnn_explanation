@@ -1,0 +1,2045 @@
+    1  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k 
+    2  cd
+    3  vi .zshrc
+    4  exit
+    5  clear
+    6  exit
+    7  clear
+    8  cd opt
+    9  ls
+   10  bash anaconda.sh
+   11  vi .zshr
+   12  cd 
+   13  ls
+   14  vi .zshrc
+   15  vi .bashrc
+   16  exit
+   17  clear
+   18  ls
+   19  conda create --name ml python=3.8.10 
+   20  conda install -c conda-forge jupyterlab
+   21  conda install -c conda-forge nb_conda_kernels
+   22  conda activate ml
+   23  conda install ipykernel 
+   24  conda deactivate
+   25  clear
+   26  ls
+   27  sudo cp jupyter.service /etc/systemd/system/jupyter.service
+   28  sudo systemctl daemon-reload
+   29  sudo systemctl enable jupyter
+   30  sudo systemctl status jupyter
+   31  sudo systemctl start jupyter
+   32  sudo systemctl status jupyter
+   33  sudo systemctl stop jupyter
+   34  sudo systemctl restart jupyter
+   35  sudo systemctl status jupyter
+   36  sudo journalctl -u jupyter -b -o cat -f 
+   37  sudo systemctl stop jupyter
+   38  which bash
+   39  sudo vi /etc/systemd/system/jupyter.service
+   40  sudo systemctl daemon-reload
+   41  sudo systemctl restart jupyter
+   42  sudo journalctl -u jupyter -b -o cat -f 
+   43  sudo systemctl stop jupyter
+   44  which bash
+   45  where bash
+   46  whoami
+   47  sudo vi /etc/systemd/system/jupyter.service
+   48  mkdir Spaces
+   49  clear
+   50  ls
+   51  cd Spaces
+   52  mkdir Codespace  Personal 
+   53  ls
+   54  cd 
+   55  ls
+   56  sudo systemctl daemon-reload
+   57  sudo systemctl stop jupyter
+   58  sudo systemctl restart jupyter
+   59  sudo journalctl -u jupyter -b -o cat -f 
+   60  clear
+   61  sudo reboot 
+   62  ls
+   63  cd Spaces/Personal
+   64  ls
+   65  clear
+   66  cd graph-ml
+   67  ls
+   68  clear
+   69  ls
+   70  conda activate ml
+   71  conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia 
+   72  clear
+   73  ls
+   74  vi pip_torch.sh
+   75  chmod +x pip_torch.sh
+   76  ./pip_torch.sh
+   77  vi pip_torch.sh
+   78  ./pip_torch.sh
+   79  nvcc
+   80  clear
+   81  ls
+   82  conda install pyg -c pyg 
+   83  pip install torch-geometric
+   84  conda install torch-geometric-temporal -c pyg 
+   85  pip install torch-geometric-temporal 
+   86  pip install torch-spline-conv 
+   87  pip install torch-scatter 
+   88  pip uninstall torch-spline-conv
+   89  pip install torch-sparse 
+   90  pip install torch-cluster 
+   91  pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.13.1.html 
+   92  conda install -c ostrokach-forge torch-spline-conv 
+   93  which nvcc
+   94  cd /usr/local/
+   95  ls
+   96  \nsudo apt install nvidia-cuda-dev\n\n 
+   97  cd
+   98  clear
+   99  ls
+  100  pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.13.1.html 
+  101  nvidia-smi
+  102  history | grep nvidia
+  103  bash
+  104  pip uninstall torch-geometric-temporal 
+  105  vi ~/anaconda3/envs/ml/lib/python3.8/site-packages/torch_spline_conv/__init__.py 
+  106  history | grep torch-geometric
+  107  pip uninstall torch-geometric 
+  108  conda uninstall pyg -c pyg 
+  109  conda deactivate
+  110  nvidia-smi
+  111  conda env remove --name ml --all 
+  112  conda remove --name ml --all
+  113  conda info --envs
+  114  exit
+  115  ls
+  116  clear
+  117  ls
+  118  conda env list
+  119  nvidia-smi
+  120  conda install pytorch-cuda=11.6 -c pytorch -c nvidia 
+  121  clear
+  122  ls
+  123  cd Spaces
+  124  ls
+  125  cd Personal
+  126  ls
+  127  cd graph-ml
+  128  ls
+  129  cat pip_torch.sh
+  130  conda create --name ml python=3.8.10 
+  131  conda activate ml
+  132  history | grep pykernel
+  133  conda install ipykernel 
+  134  ls
+  135  pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+  136  #pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+  137  python3
+  138  ls
+  139  cat pip_torch.sh
+  140  vi pip_torch.sh
+  141  ls
+  142  ./pip_torch.sh
+  143  vi pip_torch.sh
+  144  ./pip_torch.sh
+  145  vi pip_torch.sh
+  146  ./pip_torch.sh
+  147  vi pip_torch.sh
+  148  ./pip_torch.sh
+  149  exit
+  150  clear
+  151  ls
+  152  conda info list
+  153  conda env list
+  154  conda activate ml
+  155  nvidia-smi
+  156  python
+  157  ls
+  158  cd Spaces
+  159  ls
+  160  cd Personal
+  161  ls
+  162  clear
+  163  ls
+  164  cd graph-ml
+  165  ls
+  166  cat pip_torch.sh
+  167  vi pip_torch.sh
+  168  ./pip_torch.sh
+  169  conda install -c conda-forge jupyterlab_widgets
+  170  conda install -c conda-forge ipywidgets
+  171  sudo systemctl status jupyter
+  172  sudo systemctl restart jupyter
+  173  clear
+  174  conda activate ml
+  175  pip install seaborn
+  176  pip install pandas, numpy, scikit-learn
+  177  pip install pandas numpy scikit-learn
+  178  pip install matplotlib
+  179  nvidia-smi
+  180  watch nvidia-smi
+  181  htop
+  182  clear
+  183  ls
+  184  clear
+  185  ls
+  186  clear
+  187  nvidia-smi
+  188  clear
+  189  ls
+  190  cd Personal/graph-ml
+  191  ls
+  192  mkdir AmlSSml
+  193  ls
+  194  mv Notebooks.zip AmlSSml
+  195  ls
+  196  cd ..
+  197  ls
+  198  cd graph-ml
+  199  ls
+  200  mv AmlSSml ../
+  201  ls
+  202  clear
+  203  ls
+  204  cd ..
+  205  ls
+  206  cd AmlSSml
+  207  ls
+  208  unzip Notebooks.zip
+  209  sudo apt intall unzip 
+  210  sudo apt install unzip 
+  211  clear
+  212  ls
+  213  unzip Notebooks.zip
+  214  clear
+  215  ls
+  216  sudo apt install 
+  217  sudo apt install unzip
+  218  clear
+  219  ls
+  220  rm Notebooks.zip
+  221  ls
+  222  mv Notebooks AML
+  223  ls
+  224  cd AML
+  225  ls
+  226  unzip ActiveNER.zip
+  227  clear
+  228  ls
+  229  cd ..
+  230  ls
+  231  unzip OneDrive_2023-03-13.zip
+  232  clear
+  233  ls
+  234  rm OneDrive_2023-03-13.zip
+  235  ls
+  236  clear
+  237  ls
+  238  nvidia-smi
+  239  watch nvidia-smi
+  240  pwd
+  241  cd Personal
+  242  ls
+  243  cd graph-ml
+  244  ls
+  245  head A3TGCN_gitlab_subset_1000_epoch_10
+  246  ls -alh
+  247  clear
+  248  ls -alh
+  249  clear
+  250  ls
+  251  cd ..
+  252  ls
+  253  zip graph-ml.zip graph-ml
+  254  sudo apt install zip
+  255  ls
+  256  zip graph-ml.zip graph-ml
+  257  clear
+  258  ls
+  259  mkdir test
+  260  mv graph-ml.zip test
+  261  ls
+  262  cd test
+  263  ls
+  264  unzip graph-ml.zip
+  265  ls
+  266  cd graph-ml
+  267  ls
+  268  cd ..
+  269  ls
+  270  clear
+  271  ls
+  272  cd ..
+  273  ls
+  274  rm -rf test; mkdir test
+  275  ls
+  276  zip grph-ml.zip -r ./graph-ml
+  277  clear
+  278  ls
+  279  mv graph-ml test
+  280  ls
+  281  cd test
+  282  ls
+  283  cd graph-ml
+  284  ls
+  285  cd ..
+  286  ls
+  287  clear
+  288  ls
+  289  cd ..
+  290  ls
+  291  dsklfjalksdf
+  292  unzip graph-ml.zip
+  293  clear
+  294  ls
+  295  unzip grph-ml.zip
+  296  clear
+  297  watch nvidia-smi
+  298  clear
+  299  ls
+  300  cd ..
+  301  ls
+  302  git clone https://github.com/scikit-activeml/scikit-activeml
+  303  clear
+  304  ls
+  305  cd scikit-activeml
+  306  ls
+  307  conda activate ml
+  308  pip install -U scikit-activeml
+  309  clear
+  310  ls
+  311  pip install skorch
+  312  pip install modAL 
+  313  vi /home/shan/anaconda3/envs/ml/lib/python3.8/site-packages/modAL/batch.py 
+  314  pip freeze | grep numpy
+  315  clear
+  316  ls
+  317  cd ..
+  318  ls
+  319  cd scikit-activeml
+  320  ls
+  321  cd ..
+  322  clear
+  323  ls
+  324  cd AmlSSml
+  325  ls
+  326  cd AML
+  327  ls
+  328  cd ActiveNER
+  329  ls
+  330  cd Datasets
+  331  ls
+  332  head conlleval
+  333  head eng.testa
+  334  clear
+  335  ls
+  336  cd ..
+  337  clear
+  338  ls
+  339  cd ..
+  340  ls
+  341  cd ../
+  342  cd SSL
+  343  ls
+  344  clear
+  345  ls
+  346  cd cs294-158-ssl
+  347  ls
+  348  pip install .
+  349  pip install opencv-python
+  350  pip install tensorflow
+  351  pip uninstall tensorflow
+  352  clear
+  353  cd ../../
+  354  clear
+  355  ls
+  356  cd ../
+  357  ls
+  358  rm grph-ml.zip
+  359  clear
+  360  ls
+  361  clear
+  362  ls
+  363  clear
+  364  ls
+  365  g
+  366  git clone https://github.com/jacobzhaoziyuan/SAAL.git 
+  367  clear
+  368  ls
+  369  cd SAAL
+  370  ls
+  371  cd Self-supervised
+  372  ls
+  373  python
+  374  python PreTrain.py
+  375  pip install torchsummary
+  376  clear
+  377  cd ..
+  378  ls
+  379  cd data
+  380  ls
+  381  cat data.py
+  382  ls
+  383  cd ../
+  384  ls
+  385  cd data
+  386  ls
+  387  cd ../../
+  388  ls
+  389  mkdir data
+  390  cd data
+  391  ls
+  392  mkdir ISIC_2017
+  393  cd ISIC_2017
+  394  ls
+  395  clear
+  396  ls
+  397  wget https://isic-challenge-data.s3.amazonaws.com/2017/ISIC-2017_Training_Data.zip
+  398  wget https://isic-challenge-data.s3.amazonaws.com/2017/ISIC-2017_Training_Part1_GroundTruth.zip
+  399  wget https://isic-challenge-data.s3.amazonaws.com/2017/ISIC-2017_Training_Part2_GroundTruth.zip
+  400  wget https://isic-challenge-data.s3.amazonaws.com/2017/ISIC-2017_Training_Part3_GroundTruth.csv
+  401  wget https://isic-challenge-data.s3.amazonaws.com/2017/ISIC-2017_Validation_Data.zip 
+  402  wget https://isic-challenge-data.s3.amazonaws.com/2017/ISIC-2017_Validation_Part1_GroundTruth.zip 
+  403  wget https://isic-challenge-data.s3.amazonaws.com/2017/ISIC-2017_Validation_Part2_GroundTruth.zip 
+  404  wget https://isic-challenge-data.s3.amazonaws.com/2017/ISIC-2017_Validation_Part3_GroundTruth.csv 
+  405  wget https://isic-challenge-data.s3.amazonaws.com/2017/ISIC-2017_Test_v2_Data.zip 
+  406  clear
+  407  ls -alh
+  408  wget https://isic-challenge-data.s3.amazonaws.com/2017/ISIC-2017_Test_v2_Part1_GroundTruth.zip 
+  409  wget https://isic-challenge-data.s3.amazonaws.com/2017/ISIC-2017_Test_v2_Part2_GroundTruth.zip 
+  410  wget https://isic-challenge-data.s3.amazonaws.com/2017/ISIC-2017_Test_v2_Part3_GroundTruth.csv 
+  411  clear
+  412  ls -alh
+  413  history 
+  414  nvidia-smi
+  415  ssh seunghan@ubt-stg
+  416  cd ../
+  417  ls
+  418  cd ..
+  419  ls
+  420  cd ..
+  421  mkdir ubt-stg
+  422  cd ubt-stg
+  423  mkdir work
+  424  rsync -av seunghan@ubt-stg:~/work/ ./work/
+  425  clear
+  426  ls
+  427  cd work
+  428  ls
+  429  ssh seunghan@ubt-stg
+  430  scp seunghan@ubt-stg:~/history.txt ./
+  431  clear
+  432  ls
+  433  -
+  434  clear
+  435  ls
+  436  cd Spaces
+  437  ls
+  438  cd Codespace
+  439  ls
+  440  mkdir pve-stg
+  441  whoami
+  442  hostname
+  443  ls
+  444  cd pve-stg
+  445  ls
+  446  cat pve-stg-lsblk.txt
+  447  vi pve-stg-lsblk.txt
+  448  vi pve-stg-ls-alh.txt
+  449  cat pve-stg-ls-alh.txt
+  450  ls
+  451  exit
+  452  clear
+  453  ls
+  454  #sudo systemctl stop jupyter
+  455  vi bin/aws_onelogin.sh
+  456  clear
+  457  cd bin
+  458  ls
+  459  vi aws_onelogin.sh
+  460  aws_onelogin.sh
+  461  vi aws_onelogin.sh
+  462  vi ~/.zshrc
+  463  exit
+  464  aws_onelogin.sh
+  465  clear
+  466  ls
+  467  aws
+  468  clear
+  469  dirname $0
+  470  cd ~/bin
+  471  ls
+  472  aws_onelogin.sh
+  473  sudo apt install openjdk-8-jdk
+  474  clear
+  475  aws_onelogin.sh
+  476  clear
+  477  ls
+  478  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+  479  nvm install v16.14.0
+  480  exit
+  481  nvm install v16.14.0
+  482  nvm list
+  483  clear
+  484  ls
+  485  npm install -g npm@8.19.1
+  486  clear
+  487  cd
+  488  clear
+  489  ls
+  490  clear
+  491  ls
+  492  conda install anaconda-clean
+  493  anaconda-clean --yes
+  494  sudo systemctl stop jupyter
+  495  sudo vi /etc/systemd/system/jupyter.service
+  496  exit
+  497  clear
+  498  history > history.txt
+  499  ls
+  500  clear
+  501  vi ~/.zshrc
+  502  vi ~/.bashrc
+  503  clear
+  504  ls
+  505  sudo systemctl disable jupyter
+  506  mv anaconda3 ancd3-bak
+  507  ls
+  508  sudo reboot
+  509  env | grep ana
+  510  env | grep con
+  511  curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+  512  bash Mambaforge-$(uname)-$(uname -m).sh
+  513  exit
+  514  clear
+  515  conda env list
+  516  ls
+  517  vi history.txt
+  518  ls
+  519  env | grep con
+  520  clear
+  521  ls
+  522  conda env list
+  523  conda create --name ml python=3.8.10 
+  524  conda install -c conda-forge jupyterlab nb_conda_kernels
+  525  conda env list
+  526  conda activate ml
+  527  conda install ipykernel
+  528  sudo vi /etc/systemd/system/jupyter.service
+  529  sudo systemctl daemon-reload
+  530  sudo systemctl enable jupyter
+  531  sudo systemctl start jupyter
+  532  sudo journalctl -u jupyter -b -o cat -f 
+  533  lear
+  534  ls
+  535  clear
+  536  ls
+  537  rm -rf ancd3-bak
+  538  rm -rf ~/.anaconda_backup
+  539  clear
+  540  ls
+  541  exit
+  542  sudo reboot 
+  543  ls
+  544  clear
+  545  ls
+  546  vi history.txt
+  547  clear
+  548  ls
+  549  cat pip_torch.sh
+  550  conda activate ml
+  551  ls
+  552  ./pip_torch.sh
+  553  clear
+  554  ls
+  555  rm Mambaforge
+  556  rm Mambaforge-Linux-x86_64.sh
+  557  clear
+  558  ls
+  559  conda env list
+  560  conda remove -n ml --all
+  561  conda env list
+  562  clear
+  563  conda create --name ml python=3.8.10 
+  564  vi history.txt
+  565  conda activate ml
+  566  conda install ipykernel
+  567  clear
+  568  ls
+  569  conda install ipykernel
+  570  which pip
+  571  pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+  572  nvidia-smi
+  573  pip install torch --no-cache-dir --extra-index-url https://download.pytorch.org/whl/cu116
+  574  pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116 
+  575  ls
+  576  cd Spaces/Codespace
+  577  ls
+  578  clear
+  579  ls
+  580  cd ..
+  581  ls
+  582  cd
+  583  ls
+  584  cd Spaces/Personal
+  585  ls
+  586  cd graph-ml
+  587  ls
+  588  vi pip_torch.sh
+  589  ./pip_torch.sh
+  590  clear
+  591  ls
+  592  df -Th
+  593  conda install -c conda-forge jupyterlab_widgets
+  594  conda deactivate
+  595  conda install -c conda-forge jupyterlab_widgets
+  596  conda install -c conda-forge jupyterlab_widgets ipywidgets
+  597  conda activate ml
+  598  conda install -c conda-forge jupyterlab_widgets ipywidgets
+  599  pip install seaborn, pandas, numpy, scikit-learn, matplotlib
+  600  pip install seaborn pandas numpy scikit-learn matplotlib
+  601  pip install scikit-activeml
+  602  pip install skorch modAL
+  603  pip install opencv-python
+  604  conda install -c conda-forge tensorflow-gpu 
+  605  clear
+  606  ls
+  607  conda deactivate
+  608  conda env list
+  609  conda create --name insightsBI python=3.9
+  610  conda activate insightsBI 
+  611  conda install -c conda-forge jupyterlab_widgets ipywidgets
+  612  clear
+  613  ls
+  614  conda env list
+  615  conda activate insightsBI
+  616  conda deactivate
+  617  conda activate insightsBI
+  618  clear
+  619  ls
+  620  history
+  621  conda install -c conda-forge jupyterlab_widgets ipywidgets ipykernel
+  622  pip install time-machine
+  623  pip freeze | grep time-machine
+  624  clear
+  625  ls
+  626  cd bin
+  627  ls
+  628  pwd
+  629  exit
+  630  clear
+  631  exit
+  632  conda env list
+  633  conda activate ml
+  634  screen
+  635  sudo apt install screen
+  636  sudo apt install tmux
+  637  tmux
+  638  i
+  639  exit
+  640  ls
+  641  chmod +x train_A3TGC.py
+  642  ./train_A3TGC.py
+  643  conda activate ml
+  644  ./train_A3TGC.py
+  645  python3 A3TGCN_gitlab_subset_1000_epoch_
+  646  python3 train_A3TGC.py
+  647  clear
+  648  ls
+  649  mkdir tr s
+  650  ls
+  651  rm -rf [tr,s]
+  652  ls
+  653  clear
+  654  ls
+  655  rm -rf tr
+  656  ls
+  657  mkdir -p models/a3tgcn/old
+  658  mv A3TGCN_gitlab_subset_1000_epoch_* models/a3tgcn/old
+  659  ls
+  660  clear
+  661  ls
+  662  ./pip_torch.sh
+  663  ls
+  664  python3 train_A3TGC.py
+  665  cd models
+  666  ls
+  667  mkdir a3tgcn
+  668  ls
+  669  clear
+  670  cd ../
+  671  ls
+  672  cd models
+  673  ls
+  674  cd ..
+  675  python3 train_A3TGC.py &> train_a3tgcn.log & 
+  676  ls
+  677  cat train_a3tgcn.log
+  678  c
+  679  clear
+  680  conda activate ml
+  681  ls
+  682  python3 train_A3TGC.py &> train_a3tgcn.log & 
+  683  tail -f train_a3tgcn.log 
+  684  python3 train_A3TGC.py &> train_a3tgcn.log & 
+  685  tail -f train_a3tgcn.log 
+  686  python3 train_A3TGC.py &> train_a3tgcn.log & 
+  687  tail -f train_a3tgcn.log 
+  688  python3 train_A3TGC.py &> train_a3tgcn.log & 
+  689  tail -f train_a3tgcn.log 
+  690  python3 train_A3TGC.py &> train_a3tgcn.log & 
+  691  tail -f train_a3tgcn.log 
+  692  ps -auxww | grep a3tgcn
+  693  nvidia-smi
+  694  q
+  695  watch nvidia-smi
+  696  ls
+  697  cat train_a3tgcn.log
+  698  htop
+  699  ls
+  700  cat train_a3tgcn.log
+  701  nvidia-smi
+  702  clear
+  703  python3 train_A3TGC.py &> train_a3tgcn.log & 
+  704  cat train_a3tgcn.log
+  705  ls
+  706  cd models/a3tgcn
+  707  ls
+  708  clear
+  709  ls
+  710  htop
+  711  ls
+  712  nvidia-smi
+  713  ls
+  714  nvidia-smi
+  715  ls
+  716  python3 train_A3TGC.py &> train_a3tgcn.log & 
+  717  cat train_a3tgcn.log
+  718  clear
+  719  python3 train_A3TGC.py &> train_a3tgcn.log & 
+  720  cat train_a3tgcn.log
+  721  htop
+  722  nvidia-smi
+  723  q
+  724  ls
+  725  cd models
+  726  ls
+  727  cd a3tgcn/
+  728  ls
+  729  cd ..
+  730  ls
+  731  cd ..
+  732  ls
+  733  cat train_a3tgcn.log
+  734  #python3 train_A3TGC.py &> train_a3tgcn.log & 
+  735  ls
+  736  cd models/a3tgcn/
+  737  ls
+  738  cd ..
+  739  ls
+  740  cd ..
+  741  ls
+  742  cat train_a3tgcn.log
+  743  OBOBls
+  744  s
+  745  mkdir ./models/a3tgcn/2023-03-27
+  746  clear
+  747  ls
+  748  cat train_a3tgcn.log
+  749  ls
+  750  clear
+  751  ls
+  752  cd 2023-03-27
+  753  ls
+  754  cd ../../
+  755  ls
+  756  cd ..
+  757  clear
+  758  ls
+  759  python3 train_A3TGC.py &> train_a3tgcn.log & 
+  760  cat train_a3tgcn.log
+  761  python3 train_A3TGC.py &> train_a3tgcn.log & 
+  762  cat train_a3tgcn.log
+  763  nvidia-smi
+  764  clear
+  765  ls
+  766  cd models/a3tgcn/2023-03-27
+  767  ls
+  768  ls -alh
+  769  nvidia-smi
+  770  ls
+  771  ls -alh
+  772  cd ..
+  773  ls
+  774  cd ..
+  775  ls
+  776  cd ..
+  777  ls
+  778  cat train_a3tgcn.log
+  779  cat train_a3tgcn.log 
+  780  tail train_a3tgcn.log
+  781  cd ..
+  782  ls
+  783  cd SAAL
+  784  ls
+  785  clear
+  786  ls
+  787  history | grep jupyter
+  788  cat /etc/systemd/system/jupyter.service 
+  789  ls
+  790  exit
+  791  ls
+  792  cd Spaces/Codespace
+  793  ls
+  794  cd insightsBI
+  795  ls
+  796  cd ../
+  797  ls
+  798  cd ../Personal
+  799  ls
+  800  cd test
+  801  ls
+  802  cd ..
+  803  ls
+  804  cd AmlSSml
+  805  ls
+  806  cd ../data
+  807  ls
+  808  cd ../
+  809  ls
+  810  cd graph-ml
+  811  ls
+  812  cat pip_torch.sh
+  813  cd ../
+  814  ls
+  815  git clone https://github.com/johnsk95/PT4AL
+  816  exit
+  817  cd Spaces/Codespace
+  818  ls
+  819  cd insightsBI
+  820  ls
+  821  cd ../../Personal
+  822  ls
+  823  cd graph-ml
+  824  ls
+  825  cat pip_torch.sh
+  826  conda activate ml
+  827  clear
+  828  ls
+  829  cd ..
+  830  ls
+  831  cd SAAL
+  832  ls
+  833  cd Self-supervised
+  834  ls
+  835  exit
+  836  ls
+  837  nvidia-smi
+  838  conda activate ml
+  839  ls
+  840  nvidia-smi
+  841  ls
+  842  cd Spaces
+  843  ls
+  844  cd Personal
+  845  ls
+  846  cd graph-ml
+  847  ls
+  848  cd models
+  849  ls
+  850  cd a3tgcn
+  851  ls
+  852  cd 2023-03-27
+  853  ls
+  854  ls -alh
+  855  nvidia-smi
+  856  sudo reboot 
+  857  nvidia-smi
+  858  ls
+  859  lsls
+  860  ls
+  861  lscd Codespace
+  862  ls
+  863  cd Personal
+  864  ls
+  865  cd graph-ml
+  866  ls
+  867  cd models
+  868  ls
+  869  cd a3tgcn
+  870  ls
+  871  cd 2023-03-27
+  872  ls
+  873  cd ../
+  874  ls
+  875  cd ../
+  876  cd ..
+  877  ls
+  878  cat train_a3tgcn.log
+  879  ls -alh
+  880  ls -alh models/a3tgcn/2023-03-27
+  881  pwd
+  882  cd models/a3tgcn/2023-03-27
+  883  pwd
+  884  cd ../../
+  885  cd ../
+  886  ls
+  887  python3 train_A3TGC.py &>> train_a3tgcn.log & 
+  888  cat train_a3tgcn.log
+  889  python3 train_A3TGC.py &>> train_a3tgcn_part2.log & 
+  890  cat train_a3tgcn_part2.log
+  891  conda activate ml
+  892  python3 train_A3TGC.py &> train_a3tgcn_part2.log & 
+  893  nvidia-smi
+  894  cat train_a3tgcn_part2.log
+  895  python3 train_A3TGC.py &> train_a3tgcn_part2.log & 
+  896  nvidia-smi
+  897  cat train_a3tgcn_part2.log
+  898  nvidia-smi
+  899  python3 train_A3TGC.py &> train_a3tgcn_part2.log & 
+  900  cat train_a3tgcn_part2.log
+  901  clear
+  902  ls
+  903  mv train_A3TGC.py train_a3tgcn.py
+  904  clear
+  905  ls
+  906  python3 train_a3tgcn.py &> train_a3tgcn_2023_03_28.log & 
+  907  cat train_a3tgcn_2023_03_28.log
+  908  python3 train_a3tgcn.py &> train_a3tgcn_2023_03_28.log & 
+  909  cat train_a3tgcn_2023_03_28.log
+  910  python3 train_a3tgcn.py &> train_a3tgcn_2023_03_28.log & 
+  911  cat train_a3tgcn_2023_03_28.log
+  912  nvidia-smi
+  913  clear
+  914  ls
+  915  conda activate ml
+  916  ls
+  917  cd Spaces/Codespace/
+  918  ls
+  919  cd ../Personal
+  920  ls
+  921  cd graph-ml
+  922  ls
+  923  nvidia-smi
+  924  cat train_a3tgcn_part2.log
+  925  ls
+  926  htop
+  927  clear
+  928  sudo poweroff
+  929  clear
+  930  ls
+  931  cd ..
+  932  ls
+  933  cd Spaces
+  934  ls
+  935  cd Personal
+  936  ls
+  937  mv SAAL SAAL_orig
+  938  mkdir SAAL
+  939  pwd
+  940  exit
+  941  clear
+  942  conda env list
+  943  conda activate ml
+  944  clear
+  945  ls
+  946  cd Spaces/Codespace
+  947  ls
+  948  cd insightsBI
+  949  ls
+  950  cd ../
+  951  ls
+  952  cd ../Personal
+  953  ls
+  954  clear
+  955  ls
+  956  cd SAAL
+  957  ls
+  958  clear
+  959  ls
+  960  cd Spaces
+  961  ls
+  962  cd Personal
+  963  ls
+  964  cd data
+  965  ls
+  966  cd ISIC_2017
+  967  ls
+  968  cd ..
+  969  ls
+  970  cd ..
+  971  ls
+  972  mv data /home/shan/Spaces
+  973  clear
+  974  ls
+  975  cd SAAL
+  976  ls
+  977  conda activate ml
+  978  clear
+  979  ls
+  980  cd data
+  981  ls
+  982  python3 data.py
+  983  pip install constants
+  984  python3 data.py
+  985  conda activate ml
+  986  clear
+  987  ls
+  988  cd Spaces
+  989  ls
+  990  cd data
+  991  ls
+  992  cd ISIC-2017/
+  993  ls
+  994  cd ..
+  995  ls
+  996  cd ISIC_2017
+  997  ls
+  998  mv * ../ISIC-2017
+  999  clear
+ 1000  ls
+ 1001  cd ..
+ 1002  ls
+ 1003  rm -rf ISIC_2017
+ 1004  clear
+ 1005  ls
+ 1006  clear
+ 1007  ls
+ 1008  conda activate ml
+ 1009  ls
+ 1010  cd Spaces
+ 1011  sl
+ 1012  ls
+ 1013  cd Personal
+ 1014  ls
+ 1015  cd SAA
+ 1016  cd SAAL
+ 1017  clear
+ 1018  ls
+ 1019  cd data
+ 1020  ls
+ 1021  python3 data.py
+ 1022  cd ISIC-2017
+ 1023  ls
+ 1024  unzip ISIC-2017_Training_Data.zip
+ 1025  ls
+ 1026  unzip  ISIC-2017_Test_v2_Part1_GroundTruth.zip
+ 1027  ls
+ 1028  wc -l ISIC-2017_Test_v2_Part1_GroundTruth 
+ 1029  ls -alh ISIC-2017_Test_v2_Part1_GroundTruth | wc -l
+ 1030  ls
+ 1031  ls -alh ISIC-2017_Training_Data
+ 1032  ls
+ 1033  mv ISIC-2017_Training_Data_orig
+ 1034  mv ISIC-2017_Training_Data ISIC-2017_Training_Data_orig
+ 1035  ls
+ 1036  unzip ISIC-2017_Training_Data.zip
+ 1037  ls
+ 1038  cd ISIC-2017_Training_Data
+ 1039  ls
+ 1040  rm *.png
+ 1041  rm *.csv
+ 1042  ls
+ 1043  clear
+ 1044  ls
+ 1045  cd ..
+ 1046  ls
+ 1047  clear
+ 1048  ls
+ 1049  cd ..
+ 1050  ls
+ 1051  cd data
+ 1052  ls
+ 1053  python3 data.py
+ 1054  unzip ISIC-2017_Validation_Part1_GroundTruth.zip
+ 1055  clear
+ 1056  ls
+ 1057  python3 data.py
+ 1058  unzip ISIC-2017_Training_Part1_GroundTruth.zip
+ 1059  ls
+ 1060  python3 data.py
+ 1061  cd ../Self-supervised
+ 1062  ls
+ 1063  python3 data.py
+ 1064  python3 PreTrain.py
+ 1065  pip install torchsummary 
+ 1066  python3 PreTrain.py
+ 1067  pip install imageio
+ 1068  python3 PreTrain.py
+ 1069  pip install scikit-image
+ 1070  python3 PreTrain.py
+ 1071  pip install imgaug
+ 1072  python3 PreTrain.py
+ 1073  nvidia-smi
+ 1074  python3 PreTrain.py
+ 1075  clear
+ 1076  ls
+ 1077  python3 PreTrain.py
+ 1078  conda env list
+ 1079  python3 PreTrain.py
+ 1080  nvidia-smi
+ 1081  ls
+ 1082  clear
+ 1083  ls
+ 1084  python3 PreTrain.py
+ 1085  cd SAAL
+ 1086  ls
+ 1087  cd Self-supervised
+ 1088  ls
+ 1089  nvidia-smi
+ 1090  python3 PreTrain.py
+ 1091  conda activate ml
+ 1092  python3 PreTrain.py
+ 1093  clear
+ 1094  ls
+ 1095  cd ..
+ 1096  ls
+ 1097  git clone https://github.com/omarkhaled99/skin_lesion_segmentation/
+ 1098  clear
+ 1099  ls
+ 1100  nvidia-smi
+ 1101  ls
+ 1102  cd ../../
+ 1103  ls
+ 1104  cd graph-ml
+ 1105  ls
+ 1106  cd models
+ 1107  ls
+ 1108  cd a3tgcn/
+ 1109  ls
+ 1110  clear
+ 1111  conda activate base
+ 1112  jupyter labextension install @jupyterlab/google-drive\n
+ 1113  sudo systemctl restart jupyter
+ 1114  npm
+ 1115  cat /etc/systemd/system/jupyter.service 
+ 1116  sudo add-apt-repository ppa:alessandro-strada/ppa 
+ 1117  sudo apt update && sudo apt upgrade -y
+ 1118  sudo apt install google-drive-ocamlfuse -y
+ 1119  cd /
+ 1120  ls
+ 1121  sudo mkdir content
+ 1122  mkdir -p content/gdrive
+ 1123  sudo mkdir -p /content/gdrive/MyDrive/data/isic 
+ 1124  sudo chown -R shan:shan /content/gdrive
+ 1125  sudo chown -R shan:shan /content/gdr
+ 1126  ls
+ 1127  cd /content
+ 1128  ls
+ 1129  cd gdrive
+ 1130  ls
+ 1131  rm -rf MyDrive
+ 1132  ls
+ 1133  clear
+ 1134  ls
+ 1135  cat download_isic.sh
+ 1136  ls
+ 1137  cat download.log
+ 1138  ls
+ 1139  cd /content/gdrive/MyDrive/data/isic
+ 1140  ls
+ 1141  cat unzip_isic.log
+ 1142  clear
+ 1143  ls
+ 1144  칟ㅁㄱ
+ 1145  ㅣㄴ
+ 1146  clear
+ 1147  ls
+ 1148  ls -alh
+ 1149  cd _Part1_GroundTruth
+ 1150  ls
+ 1151  cd ISIC-2017_Test_v2_Part1_GroundTruth/\\n
+ 1152  ls
+ 1153  cd ..
+ 1154  ls
+ 1155  cd ISIC-2017_Training_Data
+ 1156  ls
+ 1157  pwd
+ 1158  cd ..
+ 1159  clear
+ 1160  ls
+ 1161  sudo apt update 
+ 1162  sudo apt install imagemagick 
+ 1163  sudo apt install build-essential make 
+ 1164  magick
+ 1165  source ~/.zshrc
+ 1166  exit
+ 1167  clear
+ 1168  ls
+ 1169  magick
+ 1170  magic
+ 1171  magick 
+ 1172  history 
+ 1173  sudo apt remove imagemagick
+ 1174  ls
+ 1175  cd ~/temp
+ 1176  ls
+ 1177  wget wget https://imagemagick.org/archive/ImageMagick.tar.gz 
+ 1178  tar xvzf ImageMagick.tar.gz 
+ 1179  ls
+ 1180  cd ImageMagick-7.1.1-5
+ 1181  ./configure
+ 1182  sudo make install 
+ 1183  make
+ 1184  cd ..
+ 1185  ls
+ 1186  rm -rf ImageMagick-7.1.1-5
+ 1187  sudo rm -rf ImageMagick-7.1.1-5
+ 1188  tar xvzf ImageMagick.tar.gz 
+ 1189  cd ImageMagick-7.1.1-5
+ 1190  ls
+ 1191  ./configure; make 
+ 1192  sudo make install 
+ 1193  sudo ldconfig /usr/local/lib 
+ 1194  magick -version
+ 1195  clear
+ 1196  cd /content/gdrive/MyDrive/data/isic
+ 1197  ls
+ 1198  cd ISIC-2017_Test_v2_Data
+ 1199  ls
+ 1200  cp ISIC_0016072.jpg ~/Spaces/Personal/Skin
+ 1201  clear
+ 1202  ls
+ 1203  for i in *.jpg do print $i done
+ 1204  ls -1 | while read f; do echo $f ; done
+ 1205  ls -1 *.jpg
+ 1206  ls
+ 1207  sudo apt install imagemagick 
+ 1208  ls -1 | while read f; do echo $f ; done
+ 1209  magick mogrify -resize 512x512 *.jpg
+ 1210  magick mogrify -resize 512X512 *.jpg
+ 1211  sudo apt-get install autoconf automake autotools-dev libtool pkg-config  
+ 1212  sudo apt-get install libpng12 libpng12-dev libjpeg libjpeg-dev 
+ 1213  apt install libjpeg-dev
+ 1214  sudo apt install libjpeg-dev
+ 1215  sudo apt install libpng-dev\n
+ 1216  magick mogrify -resize 512X512 *.jpg
+ 1217  magick mogrify -resize 512x512 *.jpg
+ 1218  clear
+ 1219  cd ~/temp
+ 1220  ls
+ 1221  cd ImageMagick-7.1.1-5
+ 1222  ls
+ 1223  ./configure; make 
+ 1224  sudo make install 
+ 1225  sudo ldconfig /usr/local/lib\n
+ 1226  magick mogrify -resize 512x512 *.jpg
+ 1227  ls
+ 1228  magick mogrify -resize 512x512 *.jpg
+ 1229  ls
+ 1230  clear
+ 1231  ls
+ 1232  clear
+ 1233  ls
+ 1234  cd /content/gdrive/MyDrive/data/isic
+ 1235  ls
+ 1236  cd ISIC-2017_Test_v2_Part1_GroundTruth
+ 1237  magick mogrify -resize 512x512 *.jpg
+ 1238  ls
+ 1239  cd ..
+ 1240  ls
+ 1241  unzip ISIC-2017_Test_v2_Part1_GroundTruth.zip
+ 1242  ls
+ 1243  cd H_Part1_GroundTruth
+ 1244  ls
+ 1245  cd ISIC-2017_Test_v2_Part1_GroundTruth
+ 1246  ls
+ 1247  magick mogrif -resize 512x512 *.png 
+ 1248  magick mogrify -resize 512x512 *.png 
+ 1249  ls
+ 1250  cd ..
+ 1251  clear
+ 1252  ls
+ 1253  cd ISIC-2017_Training_Data
+ 1254  ls
+ 1255  magick mogrify -resize 512x512 *.jpg
+ 1256  clear
+ 1257  ls
+ 1258  cd ..
+ 1259  ls
+ 1260  mkdir ../isic-512
+ 1261  cd ../isic-512
+ 1262  ls
+ 1263  cp ../isic/ISIC-2017_Training_Data.zip ./
+ 1264  co ../isic/ISIC-2017_Training_Part1_GroundTruth.zip ./
+ 1265  cp ../isic/ISIC-2017_Training_Part1_GroundTruth.zip ./
+ 1266  cp ../isic/ISIC-2017_Validation_Data.zip ./
+ 1267  cp ../isic/ISIC-2017_Validation_Part1_GroundTruth.zip ./
+ 1268  cp ../isic/ISIC-2017_Test_v2_Data.zip ./
+ 1269  cp ../isic/ISIC-2017_Test_v2_Part1_GroundTruth.zip ./
+ 1270  clear
+ 1271  ls
+ 1272  unzip *
+ 1273  ls
+ 1274  unzip ISIC-2017_Test_v2_Data.zip; rm ISIC-2017_Test_v2_Data.zip
+ 1275  ls
+ 1276  unzip ISIC-2017_Test_v2_Part1_GroundTruth.zip; rm ISIC-2017_Test_v2_Part1_GroundTruth.zip; unzip ISIC-2017_Training_Data.zip; rm ISIC-2017_Training_Data.zip; unzip ISIC-2017_Training_Part1_GroundTruth.zip; rm ISIC-2017_Training_Part1_GroundTruth.zip; unzip ISIC-2017_Validation_Data.zip; rm ISIC-2017_Validation_Data.zip; unzip ISIC-2017_Validation_Part1_GroundTruth.zip; rm ISIC-2017_Validation_Part1_GroundTruth.zip 
+ 1277  ls
+ 1278  clear
+ 1279  ls
+ 1280  cd ISIC-2017_Test_v2_Data
+ 1281  ls
+ 1282  cd ..
+ 1283  ls
+ 1284  cd ISIC-2017_Test_v2_Part1_GroundTruth 
+ 1285  ls
+ 1286  cd ..
+ 1287  ls
+ 1288  cd ISIC-2017_Training_Data 
+ 1289  ls
+ 1290  cd ../
+ 1291  ls
+ 1292  clear
+ 1293  ls
+ 1294  clear
+ 1295  ls
+ 1296  cd ISIC-2017_Test_v2_Data
+ 1297  ls
+ 1298  cd ..
+ 1299  find . -type f -iname \*superpixels.png -delete
+ 1300  ls
+ 1301  ls ISIC-2017_Test_v2_Data
+ 1302  ls
+ 1303  cd ISIC-2017_Test_v2_Data; magick mogrify -resize 512x512 *.jpg ; cd ../ISIC-2017_Test_v2_Part1_GroundTruth; magick mogrify -resize 512x512 *.png; cd ../ISIC-2017_Training_Data; magick mogrify -resize 512x512 *.jpg; cd ../ISIC-2017_Training_Part1_GroundTruth; magick mogrify -resize 512x512 *.png; cd ../ISIC-2017_Validation_Data; magick mogrify -resize 512x512 *.jpg; cd ../ISIC-2017_Validation_Part1_GroundTruth; magick mogrify -resize 512x512 *.png; 
+ 1304  clear
+ 1305  cd ..
+ 1306  ls
+ 1307  cd ..
+ 1308  ls
+ 1309  du -sh isic-512
+ 1310  clear
+ 1311  ls
+ 1312  cd isic-512
+ 1313  ls
+ 1314  cd ..
+ 1315  ls
+ 1316  pwd
+ 1317  #ln -s /content/gdrive/MyDrive/data/isic-512 
+ 1318  cd 
+ 1319  ls
+ 1320  cd Spaces/Personal/Skin
+ 1321  ls
+ 1322  ln -s /content/gdrive/MyDrive/data/isic-512 isic-512
+ 1323  ls
+ 1324  clear
+ 1325  sudo reboot 
+ 1326  clear
+ 1327  ls
+ 1328  sudo reboot
+ 1329  clear
+ 1330  ls
+ 1331  cd Personal/Skin
+ 1332  ls
+ 1333  clear
+ 1334  ls
+ 1335  cp skin_lesion_segmentation-backup.ipynb skin_lesion_segmentation-part1.ipynb
+ 1336  conda env list
+ 1337  conda activate ml
+ 1338  clear
+ 1339  ls
+ 1340  pip install comet_ml
+ 1341  ls /content/gdrive/MyDrive/data/isic-512
+ 1342  clear
+ 1343  ls
+ 1344  cd isic-512
+ 1345  ls
+ 1346  mv ISIC-2017_Test_v2_Data resized_test
+ 1347  mv ISIC-2017_Validation_Data resized_valid
+ 1348  ls
+ 1349  clear
+ 1350  ls
+ 1351  mv ISIC-2017_Training_Data resized_train
+ 1352  clear
+ 1353  ls
+ 1354  ls -alh
+ 1355  mv ISIC-2017_Training_Part1_GroundTruth resized_train_gt
+ 1356  clear
+ 1357  ls -alh
+ 1358  mv ISIC-2017_Test_v2_Part1_GroundTruth resized_test_gt
+ 1359  mv ISIC-2017_Validation_Part1_GroundTruth resized_valid_gt
+ 1360  clear
+ 1361  ls
+ 1362  clear
+ 1363  ls
+ 1364  cd ..
+ 1365  ls
+ 1366  tar cvzf isic-512.tgz isic-512
+ 1367  ls
+ 1368  rm isic-512.tgz
+ 1369  cd /content/gdrive/MyDrive/data/
+ 1370  ls
+ 1371  tar cvzf isic-512.tgz isic-512
+ 1372  ls
+ 1373  cd isic-512
+ 1374  clear
+ 1375  ls
+ 1376  cd resized_
+ 1377  cd resized_test
+ 1378  ls
+ 1379  clear
+ 1380  cd ..
+ 1381  ls
+ 1382  find . -type f -iname \*.csv -delete
+ 1383  cd /content/gdrive/MyDrive/data
+ 1384  ls
+ 1385  rm isic-512.tgz
+ 1386  tar cvzf isic-512.tgz isic-512
+ 1387  rm -rf isic-512/resized_test_gt/.ipynb_checkpoints/
+ 1388  rm -rf isic-512/resized_valid/.ipynb_checkpoints/
+ 1389  clear
+ 1390  tar cvzf isic-512.tgz isic-512
+ 1391  ls
+ 1392  rm isic-512.tgz
+ 1393  rm -rf isic-512/resized_train_gt/.ipynb_checkpoints/
+ 1394  ls
+ 1395  cd isic-512
+ 1396  ls
+ 1397  rm -rf resized_test/.ipynb_checkpoints
+ 1398  rm -rf resized_train/.ipynb_checkpoints
+ 1399  rm -rf resized_valid_gt/.ipynb_checkpoints
+ 1400  clear
+ 1401  ls
+ 1402  cd ..
+ 1403  tar cvzf isic-512.tgz isic-512
+ 1404  clear
+ 1405  pip install black
+ 1406  cd ~/Spaces/Personal
+ 1407  ls
+ 1408  cd Skin
+ 1409  ls
+ 1410  black skin_lesion_segmentation-backup.ipynb 
+ 1411  black skin_lesion_segmentation.ipynb
+ 1412  ls
+ 1413  black skin_lesion_segmentation-part1.ipynb
+ 1414  pip install black[jupyter]
+ 1415  pip install "black[jupyter]"
+ 1416  black skin_lesion_segmentation-part1.ipynb
+ 1417  black skin_lesion_segmentation.ipynb
+ 1418  ls
+ 1419  black skin_lesion_segmentation-backup.ipynb 
+ 1420  clear
+ 1421  ls
+ 1422  cd /content/gdrive/MyDrive/data
+ 1423  ls
+ 1424  pwd
+ 1425  ls
+ 1426  rm isic-512.tgz
+ 1427  clear
+ 1428  ls
+ 1429  tar cvzf isic-512.tgz isic-512
+ 1430  clear
+ 1431  ls
+ 1432  mv isic-512.tgz ~/Spaces/Personal
+ 1433  nvidia-smi
+ 1434  ls
+ 1435  mkdir unet_isic_checkpoints
+ 1436  nvidia-smi
+ 1437  clear
+ 1438  ls
+ 1439  cd unet_isic_checkpoints
+ 1440  ls
+ 1441  ls -alh
+ 1442  cd 
+ 1443  ls
+ 1444  cd Spaces/Personal
+ 1445  ls
+ 1446  cd Skin
+ 1447  ls
+ 1448  clear
+ 1449  ls
+ 1450  nvidia-smi
+ 1451  sudo systemctl stop jupyter
+ 1452  nvidia-smi
+ 1453  sudo systemctl status jupyter
+ 1454  clear
+ 1455  ls
+ 1456  cd Spaces/Personal
+ 1457  ls
+ 1458  cd Skin
+ 1459  ls
+ 1460  vi saal-part1.py
+ 1461  nvim 
+ 1462  neovim
+ 1463  spacevim
+ 1464  clear
+ 1465  ls
+ 1466  tmux
+ 1467  tmux ls
+ 1468  tmux a
+ 1469  tmux ls
+ 1470  tmux a -t 0
+ 1471  conda env list
+ 1472  conda activate ml
+ 1473  clear
+ 1474  ls
+ 1475  clear
+ 1476  ls
+ 1477  vi saal-part1.py
+ 1478  ls -alh /content/gdrive/MyDrive/data/unet_isic_checkpoints
+ 1479  ls
+ 1480  rm /content/gdrive/MyDrive/data/unet_isic_checkpoints/unet-epoch-0.pt
+ 1481  ls
+ 1482  python3 saal-part1.py
+ 1483  vi saal-part1.py
+ 1484  python3 saal-part1.py
+ 1485  tmux ls
+ 1486  clear
+ 1487  ls
+ 1488  clear
+ 1489  ls
+ 1490  tmux ls
+ 1491  tmux a -t 0
+ 1492  cd ..
+ 1493  ls
+ 1494  clear
+ 1495  cd /content/gdrive/MyDrive/data/
+ 1496  ls\\n
+ 1497  ls
+ 1498  cd unet_isic_checkpoints
+ 1499  ls
+ 1500  ls -alh
+ 1501  clear
+ 1502  ls
+ 1503  tmux a -t 0
+ 1504  tmux ls
+ 1505  tmux -a -t 0
+ 1506  tmux
+ 1507  tmux -a -t 0
+ 1508  tmux a -t 0
+ 1509  tmux ls
+ 1510  tmux a 0
+ 1511  tmux a -t 0
+ 1512  exit
+ 1513  tmux a -t 0
+ 1514  tmux ls
+ 1515  conda activate ml
+ 1516  sudo systemctl start jupyter
+ 1517  nvidia-smi
+ 1518  clear
+ 1519  cd Spaces/Personal
+ 1520  ls
+ 1521  cd Skin
+ 1522  ls
+ 1523  exit
+ 1524  clear
+ 1525  ls
+ 1526  cd /content/gdrive/MyDrive/data/unet_isic_checkpoints
+ 1527  ls
+ 1528  ls -alh
+ 1529  clear
+ 1530  ls
+ 1531  clear
+ 1532  ls
+ 1533  cd 
+ 1534  ls
+ 1535  cd Spaces/Personal/Skin
+ 1536  ls
+ 1537  tmux 
+ 1538  history 
+ 1539  python3 saal-part1.py
+ 1540  conda activate ml
+ 1541  python3 saal-part1.py
+ 1542  nvidia-smi
+ 1543  sudo systemctl stop jupyter
+ 1544  sudo systemctl start jupyter
+ 1545  clear
+ 1546  ls
+ 1547  nvidia-smi
+ 1548  conda activate ml
+ 1549  watch nvidia-smi
+ 1550  clear
+ 1551  ls
+ 1552  python3 saal-part1.py
+ 1553  sudo systemctl start jupyter
+ 1554  python3 saal-part1.py
+ 1555  cd /content/gdrive/MyDrive/data/unet_isic_checkpoints
+ 1556  ls
+ 1557  ls -alh
+ 1558  rm unet-epoch-train-7.pt
+ 1559  ls
+ 1560  clear
+ 1561  python3 saal-part1.py
+ 1562  ls
+ 1563  watch nvidia-smi
+ 1564  clear
+ 1565  python3 saal-part1.py
+ 1566  cd /content/gdrive/MyDrive/data/unet_isic_checkpoints
+ 1567  watch ls -alh
+ 1568  ls
+ 1569  ls -alh | sort
+ 1570  ls
+ 1571  ls -alh
+ 1572  mamba install -c conda-forge nodejs
+ 1573  clear
+ 1574  ls
+ 1575  ^[[200~mamba install -c conda-forge jupyterlab_vim
+ 1576  mamba install -c conda-forge jupyterlab_vim
+ 1577  sudo systemctl restart jupyter
+ 1578  ls
+ 1579  ls -alh
+ 1580  clear
+ 1581  ls
+ 1582  clear
+ 1583  ls
+ 1584  clear
+ 1585  ls
+ 1586  cd ..
+ 1587  ls
+ 1588  du -sh unet_isic_checkpoints
+ 1589  clear
+ 1590  ls
+ 1591  cd unet_isic_checkpoints
+ 1592  ls
+ 1593  du -sh unet-epoch-train-99.pt
+ 1594  du -sh unet-epoch-90.pt
+ 1595  cd ..
+ 1596  ls
+ 1597  du -sh unet_isic_checkpoints
+ 1598  python3 saal-part1.py
+ 1599  sudo systemctl restart jupyter
+ 1600  python3 saal-part1.py
+ 1601  cd unet_isic_checkpoints
+ 1602  clear
+ 1603  ls
+ 1604  ls -alh
+ 1605  exit
+ 1606  cd /content/gdrive/MyDrive/data/unet_isic_checkpoints
+ 1607  ls
+ 1608  mkdir ../unet_isic_pretrained/
+ 1609  clear
+ 1610  ls -alh unet-epoch-*
+ 1611  ls
+ 1612  cp unet-epoch-10.pt ../unet_isic_pretrained
+ 1613  cp unet-epoch-30.pt ../unet_isic_pretrained/
+ 1614  cp unet-epoch-50.pt ../unet_isic_pretrained
+ 1615  cp unet-epoch-90.pt ../unet_isic_pretrained
+ 1616  cp unet-epoch-100.pt ../unet_isic_pretrained
+ 1617  cp unet-epoch-train-10.pt ../unet_isic_pretrained
+ 1618  cp unet-epoch-train-50.pt ../unet_isic_pretrained
+ 1619  cp unet-epoch-train-100.pt ../unet_isic_pretrained
+ 1620  clear
+ 1621  ls
+ 1622  cd ..
+ 1623  ls
+ 1624  du -sh unet_isic_pretrained
+ 1625  cd unet_isic_pretrained
+ 1626  ls
+ 1627  ls -alh
+ 1628  rm unet-epoch-30.pt
+ 1629  rm unet-epoch-90.pt
+ 1630  clear
+ 1631  ls
+ 1632  ls -alh
+ 1633  cd ..
+ 1634  ls
+ 1635  tar cvzf unet_isic_pretrained.tgz unet_isic_pretrained
+ 1636  ls
+ 1637  pwd
+ 1638  nvidia-smi
+ 1639  sudo poweroff
+ 1640  clear
+ 1641  ls
+ 1642  rm isic-512.tgz
+ 1643  cd Skin
+ 1644  ls
+ 1645  ls -alh
+ 1646  cd /content/gdrive/MyDrive/data
+ 1647  ls
+ 1648  zip isic-512.zip isic-512
+ 1649  rm isic-512.zip
+ 1650  clear
+ 1651  ls
+ 1652  zip -r isic-512.zip isic-512
+ 1653  ls
+ 1654  ls -alh
+ 1655  clear
+ 1656  ls
+ 1657  mkdir download_test
+ 1658  wget https://www.dropbox.com/scl/fo/o58dvtaambye5efem2k2j/h\?dl\=0\&rlkey\=orei799l7cpnj9g4z85fksfr7 
+ 1659  ls
+ 1660  rm h\?dl=0\&rlkey=orei799l7cpnj9g4z85fksfr7
+ 1661  ls
+ 1662  cd download_test
+ 1663  ls
+ 1664  wget https://www.dropbox.com/s/2nh2hfy23irtrhn/isic-512.zip\?dl\=0 
+ 1665  ls
+ 1666  rm isic-512.zip\?dl=0
+ 1667  wget https://www.dropbox.com/s/2nh2hfy23irtrhn/isic-512.zip\?dl\=0 isic-512.zip 
+ 1668  ls
+ 1669  rm isic-512.zip\?dl=0
+ 1670  wget https://www.dropbox.com/s/2nh2hfy23irtrhn/isic-512.zip\?dl\=0 -O isic-512.zip 
+ 1671  echo "wget https://www.dropbox.com/s/2nh2hfy23irtrhn/isic-512.zip\?dl\=0 -O isic-512.zip" >> download_isic_model.sh
+ 1672  clear
+ 1673  ls
+ 1674  vi download_isic_model.sh
+ 1675  cat download_isic_model.sh
+ 1676  echo "wget https://www.dropbox.com/s/b3s0wojrme61yag/unet-epoch-10.pt\?dl\=0 -O unet-epoch-10.pt" >> download_isic_model.sh
+ 1677  echo "wget https://www.dropbox.com/s/nn3mwo4lgcao1sf/unet-epoch-50.pt\?dl\=0 -O unet-epoch-50.pt" >> download_isic_model.sh
+ 1678  echo "wget https://www.dropbox.com/s/ygxp48s4drab0wa/unet-epoch-100.pt\?dl\=0 -O unet-epoch-100.pt" >> download_isic_model.sh
+ 1679  echo "wget https://www.dropbox.com/s/5cri9ezb4j0wlw9/unet-epoch-train-10.pt\?dl\=0 -O unet-epoch-train-10.pt" >> download_isic_model.sh
+ 1680  echo "wget https://www.dropbox.com/s/x1sppfgxagxzios/unet-epoch-train-50.pt\?dl\=0 -O unet-epoch-train-50.pt" >> download_isic_model.sh 
+ 1681  echo "wget https://www.dropbox.com/s/j8cpsa4czor4xat/unet-epoch-train-100.pt\?dl\=0 -O unet-epoch-train-100.pt" >> download_isic_model.sh
+ 1682  clear
+ 1683  ls
+ 1684  cat download_isic_model.sh
+ 1685  cd 
+ 1686  ls
+ 1687  cd Spaces/Codespace
+ 1688  ls
+ 1689  cd ../Personal
+ 1690  ls
+ 1691  clear
+ 1692  ls
+ 1693  cd SAAL_orig
+ 1694  ls
+ 1695  ls -alh
+ 1696  cd ..
+ 1697  ls
+ 1698  clear
+ 1699  ls
+ 1700  cd SkinSegASML
+ 1701  ls
+ 1702  cd src
+ 1703  ls
+ 1704  touch __init__.py
+ 1705  ls
+ 1706  clear
+ 1707  ls
+ 1708  conda env list
+ 1709  conda activate ml
+ 1710  pip freeze | grep comet
+ 1711  clear
+ 1712  cd ..
+ 1713  ls
+ 1714  clear
+ 1715  git init
+ 1716  ls
+ 1717  git add .
+ 1718  clear
+ 1719  sl
+ 1720  git commit -m "init repo"
+ 1721  git git config user.email "hanseunghan@gmail.com"
+ 1722  ls
+ 1723  vi .git/config
+ 1724  cd ../
+ 1725  ls
+ 1726  cd SAAL_orig/ls
+ 1727  cd SAAL_orig/
+ 1728  ls
+ 1729  vi .git/config
+ 1730  cd ..
+ 1731  ls
+ 1732  cd SkinSegASML
+ 1733  ls
+ 1734  git config -- user.email "hanseunghan@gmail.com"
+ 1735  git config -- user.name "Han, Seunghan"
+ 1736  ls
+ 1737  vi .git/config
+ 1738  clear
+ 1739  ls
+ 1740  git commit -m "init repo"
+ 1741  git branch -M main
+ 1742  git remote add origin git@github.com:papaispicolo/SkinSegASML.git 
+ 1743  git push -u origin main\n 
+ 1744  clear
+ 1745  git status
+ 1746  git add .
+ 1747  clear
+ 1748  git status
+ 1749  git commit -am "add notebooks"
+ 1750  clear
+ 1751  git push
+ 1752  clear
+ 1753  git status
+ 1754  cd src
+ 1755  ls
+ 1756  cd skinseg
+ 1757  ls
+ 1758  cd dataset
+ 1759  ls
+ 1760  clear
+ 1761  ls
+ 1762  clear
+ 1763  git status
+ 1764  cd ..
+ 1765  clear
+ 1766  cd ..
+ 1767  ls
+ 1768  git status
+ 1769  git add .
+ 1770  clear
+ 1771  git status
+ 1772  clear
+ 1773  git status
+ 1774  git add .
+ 1775  clear
+ 1776  git commit -am "add data browser"
+ 1777  clear
+ 1778  git status
+ 1779  ls
+ 1780  cd /content
+ 1781  ls
+ 1782  clear
+ 1783  ls
+ 1784  cd gdrive
+ 1785  ls
+ 1786  cd MyDrive
+ 1787  ls
+ 1788  cd data
+ 1789  ls
+ 1790  mv unet_isic_checkpoints unet_isic_chkpt
+ 1791  cd unet_isic_chkpt
+ 1792  ls
+ 1793  cd ..
+ 1794  clear
+ 1795  ls
+ 1796  clear
+ 1797  ls
+ 1798  clear
+ 1799  ls
+ 1800  clear
+ 1801  ls
+ 1802  clear
+ 1803  git status
+ 1804  watch nvidia-smi
+ 1805  clear
+ 1806  ls
+ 1807  cd ../../
+ 1808  ls
+ 1809  mkdir SkinSegASML_bak
+ 1810  rsync -av SkinSegASML/ SkinSegASML_bak/
+ 1811  clear
+ 1812  ls
+ 1813  cd ..
+ 1814  ls
+ 1815  cd
+ 1816  clear
+ 1817  ls
+ 1818  conda activate ml
+ 1819  ls
+ 1820  clear
+ 1821  ls
+ 1822  clear
+ 1823  ls
+ 1824  cd SkinSegASML
+ 1825  ls
+ 1826  touch .gitignore
+ 1827  clear
+ 1828  git status
+ 1829  clear
+ 1830  git status
+ 1831  ls
+ 1832  git add .
+ 1833  clear
+ 1834  git status
+ 1835  git commit -am "clean up"
+ 1836  git push
+ 1837  clear
+ 1838  cd SkinSegASML
+ 1839  clear
+ 1840  git status
+ 1841  git commit -am "clean up"
+ 1842  git push
+ 1843  git commit -am "clean up"
+ 1844  git push
+ 1845  git commit -am "clean up"
+ 1846  git push
+ 1847  clear
+ 1848  ls
+ 1849  nvidia-smi
+ 1850  clear
+ 1851  ls
+ 1852  clear
+ 1853  tmux
+ 1854  conda env list
+ 1855  conda activate ml
+ 1856  cd Spaces/Personal/graph-ml
+ 1857  ls
+ 1858  hisotory | grep a3tgcn
+ 1859  history | grep a3tgcn
+ 1860  mkdir -p models/a3tgcn/2023-04-06/
+ 1861  python3 train_a3tgcn.py &> train_a3tgcn_2023_03_04.log  
+ 1862  tmux ls
+ 1863  ls
+ 1864  cd Spaces/Personal
+ 1865  ls
+ 1866  cd graph-ml
+ 1867  nvidia-smi
+ 1868  watch nvidia-smi
+ 1869  tmux a -t 0
+ 1870  nvidia-smi
+ 1871  ls
+ 1872  cat train_a3tgcn.py
+ 1873  python3 train_a3tgcn.py &> train_a3tgcn_2023_03_04.log  
+ 1874  tmux ls 
+ 1875  ls
+ 1876  tail -f train_a3tgcn_2023_03_04.log
+ 1877  watch nvidia-smi
+ 1878  clear
+ 1879  ls
+ 1880  tail -f train_a3tgcn_2023_03_04.log
+ 1881  nvidia-smi
+ 1882  watch nvidia-smi
+ 1883  tmux ls 
+ 1884  tmux a -t 0
+ 1885  python3 train_a3tgcn.py
+ 1886  exit
+ 1887  tmux ls
+ 1888  exit
+ 1889  nv
+ 1890  nvidia-smi
+ 1891  clear
+ 1892  ls
+ 1893  tmux ls
+ 1894  tmux a -t 0
+ 1895  ls
+ 1896  cd models
+ 1897  ls
+ 1898  cd a3tgcn
+ 1899  ls
+ 1900  cd 2023-04-06
+ 1901  ls
+ 1902  ls -alh
+ 1903  exit
+ 1904  sudo reboot 
+ 1905  clear
+ 1906  ls
+ 1907  cd Spaces
+ 1908  ls
+ 1909  cd Personal
+ 1910  ls
+ 1911  git clone git@github.com:chnsh/DCRNN_PyTorch.git 
+ 1912  ls
+ 1913  mkdir AI-day
+ 1914  mv AI-day AIday
+ 1915  ls
+ 1916  mv DCRNN_PyTorch AIday
+ 1917  ls
+ 1918  mv graph-ml AIday
+ 1919  ls
+ 1920  clear
+ 1921  ls
+ 1922  cd AmlSSml
+ 1923  ls
+ 1924  cd ..
+ 1925  ls
+ 1926  mv SkinSegASML AIday
+ 1927  ls
+ 1928  mv scikit-activeml AmlSSml
+ 1929  cd PT4AL
+ 1930  ls
+ 1931  cd ..
+ 1932  ls
+ 1933  mv Skin AmlSSml
+ 1934  ls
+ 1935  mv skin_lesion_segmentation AmlSSml
+ 1936  ls
+ 1937  mv [SAAL SAAL_Orig] AmlSSml
+ 1938  mv SAAL AmlSSml
+ 1939  ls
+ 1940  mv SAAL_orig AmlSSml
+ 1941  ls
+ 1942  mv PT4AL AmlSSml
+ 1943  mv SkinSegASML_bak AmlSSml
+ 1944  ls
+ 1945  clear
+ 1946  ls
+ 1947  cd AIday
+ 1948  ls
+ 1949  mv SkinSegASML ../AmlSSml
+ 1950  ls
+ 1951  nvidia-smi
+ 1952  exit
+ 1953  cd Spaces/Personal
+ 1954  ls
+ 1955  cd AIday
+ 1956  ls
+ 1957  cd DCRNN_PyTorch
+ 1958  ls
+ 1959  conda env ml
+ 1960  mamba activate ml
+ 1961  clear
+ 1962  ls
+ 1963  git status
+ 1964  git branch -a
+ 1965  git config --global core.editor
+ 1966  ls
+ 1967  exit
+ 1968  hostname
+ 1969* watch nvidia-smi
+ 1970  cd ..
+ 1971  ls
+ 1972  mv DCRNN_PyTorch DCRNN_PyTorch_org
+ 1973  git clone git@github.com:chnsh/DCRNN_PyTorch.git 
+ 1974  clear
+ 1975  ls
+ 1976  cd DCRNN_PyTorch
+ 1977  ls
+ 1978  conda activate ml
+ 1979  clear
+ 1980  ls
+ 1981  python run_demo_pytorch.py --help
+ 1982  pip install -r requirements.txt
+ 1983  clear
+ 1984  ls
+ 1985  python run_demo_pytorch.py --help
+ 1986  #python run_demo_pytorch.py --config_filename=data/modelpretrained/METRA-LA/config.yaml --output_filename=
+ 1987  mkdir demo
+ 1988  ls
+ 1989  clear
+ 1990  ls
+ 1991  python run_demo_pytorch.py --config_filename=data/modelpretrained/METRA-LA/config.yaml --output_filename=demo/dcrnn_predictions_shan.npz
+ 1992  python run_demo_pytorch.py --config_filename=data/model/pretrained/METRA-LA/config.yaml --output_filename=demo/dcrnn_predictions_shan.npz
+ 1993  ls data/model/pretrained/METR-LA
+ 1994  python run_demo_pytorch.py --config_filename=./data/model/pretrained/METR-LA/config.yaml --output_filename=demo/dcrnn_predictions_shan.npz
+ 1995  python run_demo_pytorch.py --config_filename=data/model/pretrained/METR-LA/config.yaml --output_filename=demo/dcrnn_predictions_shan.npz
+ 1996  python3 run_demo_pytorch.py
+ 1997  ipython
+ 1998  ls
+ 1999  cat requirements.txt
+ 2000  pip uninstall pyyaml
+ 2001  pip install pyyaml
+ 2002  python3 run_demo_pytorch.py
+ 2003  \n
+ 2004  clear
+ 2005  ls
+ 2006  python3 run_demo_pytorch.py
+ 2007  ls
+ 2008  mkdir -p data/{METR-LA,PEMS-BAY}\n 
+ 2009  ls
+ 2010  cd ..
+ 2011  ls
+ 2012  mv metr-la.h5 DCRNN_PyTorch/data/METR-LA
+ 2013  mv pems-bay.h5 DCRNN_PyTorch/data/PEMS-BAY
+ 2014  cd DCRNN_PyTorch
+ 2015  ls
+ 2016  cear
+ 2017  clear
+ 2018  ls
+ 2019  python -m scripts.generate_training_data --output_dir=data/METR-LA --traffic_df_filename=data/metr-la.h5\n 
+ 2020  cd data
+ 2021  ls
+ 2022  cp METR-LA/metr-la.h5 ./
+ 2023  cp PEMS-BAY/pems-bay.h5 ./
+ 2024  cd ..
+ 2025  python -m scripts.generate_training_data --output_dir=data/METR-LA --traffic_df_filename=data/metr-la.h5\n 
+ 2026  python -m scripts.generate_training_data --output_dir=data/PEMS-BAY --traffic_df_filename=data/pems-bay.h5\n
+ 2027  python run_demo_pytorch.py --config_filename=data/model/pretrained/METR-LA/config.yaml\n 
+ 2028  clear
+ 2029  ls
+ 2030  python dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_la.yaml
+ 2031* hostname
+ 2032* nvidia-smi
+ 2033* watch nvidia-smi
+ 2034* clear
+ 2035* ls
+ 2036* nvidia-smi
+ 2037* cd Spaces/Personal/AIday
+ 2038* clear
+ 2039* ls
+ 2040* cd DCRNN_PyTorch
+ 2041* ls
+ 2042* rgrep Total 
+ 2043* rgrep num_batches 
+ 2044* pip install numpy
+ 2045  clear

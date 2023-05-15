@@ -1,0 +1,41 @@
+2023-04-09 00:13:34,863 - Baseline - INFO - Log directory: data/model
+2023-04-09 00:13:35,166 - Baseline - INFO - Static
+2023-04-09 00:13:35,167 - Baseline - INFO - Model	Horizon	RMSE	MAPE	MAE
+2023-04-09 00:17:21,932 - Baseline - INFO - Log directory: data/model
+2023-04-09 00:17:22,231 - Baseline - INFO - Static
+2023-04-09 00:17:22,232 - Baseline - INFO - Model	Horizon	RMSE	MAPE	MAE
+2023-04-09 00:17:22,430 - Baseline - INFO - Static	1	6.07	6.84	3.05
+2023-04-09 00:17:22,618 - Baseline - INFO - Static	3	8.69	9.39	4.02
+2023-04-09 00:17:22,806 - Baseline - INFO - Static	6	11.13	12.21	5.09
+2023-04-09 00:17:22,978 - Baseline - INFO - Static	12	14.21	16.71	6.79
+2023-04-09 00:17:31,462 - Baseline - INFO - Historical Average
+2023-04-09 00:17:31,462 - Baseline - INFO - Model	Horizon	RMSE	MAPE	MAE
+2023-04-09 00:17:31,462 - Baseline - INFO - HA	1	7.77	12.90	4.15
+2023-04-09 00:17:31,462 - Baseline - INFO - HA	3	7.77	12.90	4.15
+2023-04-09 00:17:31,463 - Baseline - INFO - HA	6	7.77	12.90	4.15
+2023-04-09 00:17:31,463 - Baseline - INFO - HA	12	7.77	12.90	4.15
+2023-04-09 00:17:46,838 - Baseline - INFO - VAR (lag=3)
+2023-04-09 00:17:46,840 - Baseline - INFO - Model	Horizon	RMSE	MAPE	MAE
+2023-04-09 00:17:46,963 - Baseline - INFO - VAR	1	5.64	7.03	3.17
+2023-04-09 00:17:47,076 - Baseline - INFO - VAR	3	7.78	10.08	4.37
+2023-04-09 00:17:47,189 - Baseline - INFO - VAR	6	9.37	12.75	5.40
+2023-04-09 00:17:47,302 - Baseline - INFO - VAR	12	10.68	15.84	6.50
+2023-04-09 00:20:02,911 - Baseline - INFO - Log directory: data/model
+2023-04-09 00:20:03,306 - Baseline - INFO - Static
+2023-04-09 00:20:03,307 - Baseline - INFO - Model	Horizon	RMSE	MAPE	MAE
+2023-04-09 00:20:03,700 - Baseline - INFO - Static	1	1.86	1.86	0.98
+2023-04-09 00:20:04,058 - Baseline - INFO - Static	3	3.43	3.24	1.60
+2023-04-09 00:20:04,416 - Baseline - INFO - Static	6	4.98	4.65	2.18
+2023-04-09 00:20:04,773 - Baseline - INFO - Static	12	7.02	6.84	3.05
+2023-04-09 00:20:14,633 - Baseline - INFO - Historical Average
+2023-04-09 00:20:14,634 - Baseline - INFO - Model	Horizon	RMSE	MAPE	MAE
+2023-04-09 00:20:14,635 - Baseline - INFO - HA	1	5.59	6.76	2.88
+2023-04-09 00:20:14,635 - Baseline - INFO - HA	3	5.59	6.76	2.88
+2023-04-09 00:20:14,635 - Baseline - INFO - HA	6	5.59	6.76	2.88
+2023-04-09 00:20:14,635 - Baseline - INFO - HA	12	5.59	6.76	2.88
+2023-04-09 00:20:49,461 - Baseline - INFO - VAR (lag=3)
+2023-04-09 00:20:49,463 - Baseline - INFO - Model	Horizon	RMSE	MAPE	MAE
+2023-04-09 00:20:49,786 - Baseline - INFO - VAR	1	1.75	1.97	1.02
+2023-04-09 00:20:50,109 - Baseline - INFO - VAR	3	3.09	3.59	1.74
+2023-04-09 00:20:50,430 - Baseline - INFO - VAR	6	4.15	5.02	2.33
+2023-04-09 00:20:50,752 - Baseline - INFO - VAR	12	5.11	6.46	2.92
