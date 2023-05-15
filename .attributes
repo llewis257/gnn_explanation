@@ -1,0 +1,8 @@
+data/METR-LA/metr-la.h5
+data/METR-LA/test.npz
+data/PEMS-BAY/val.npz
+demo/dcrnn_predictions_shan.npz
+data/PEMS-BAY/train.npz
+data/METR-LA/train.npz
+data/PEMS-BAY/pems-bay.h5
+data/PEMS-BAY/test.npz
